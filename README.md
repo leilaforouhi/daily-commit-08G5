@@ -1,4 +1,4 @@
-def word_count(tex):
+def word_count(texT):
     words = text.split()
     return len(words)
 
