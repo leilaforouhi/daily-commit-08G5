@@ -1,2 +1,8 @@
-# daily-commit-08G5
-My eighty-fifth daily GitHub activity repository
+def word_count(text):
+    words = text.split()
+    return len(words)
+
+if __name__ == "__main__":
+    sentence = "Consistency is the key to daily progress"
+    print(f"Sentence: {sentence}")
+    print(f"Word count: {word_count(sentence)}")
